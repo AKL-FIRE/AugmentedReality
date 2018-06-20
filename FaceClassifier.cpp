@@ -125,7 +125,7 @@ void FaceClassifier::DrawCatEar(Mat &src)
         {
             int position1_x = eyes[0].x + faces[0].x;
             int position1_y = eyes[0].y + faces[0].y + faces[0].height * 0.5;
-            int position2_x = eyes[1].x + faces[0].x;
+            int position2_x = eyes[1].x + faces[0].x + faces[0].width * 0.1;
             int position2_y = eyes[1].y + faces[0].y + faces[0].height * 0.5;
 
             Point p1_left(position1_x, position1_y);

@@ -11,7 +11,7 @@ int main()
         for(;;)
         {
             cap >> frames;
-            a.DrawCatEar(frames);
+            a.DrawGrass(frames);
             if(waitKey(10) == 27) break;
         }
 }
